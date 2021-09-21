@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgreen;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 0;
+}
+h1 + p {
+  margin-top: 0;
+}
+form{
+  background-color: lightpink;
+  box-shadow: 3px 6px 12px;
+  padding: 40px 30px;
+  max-width: 500px;
+  margin: 40px auto;
+
+}
+.form-control{
+  margin-bottom: 20px;
+  text-align: left;
+ 
+}
+.form-control label{
+  display: block;
+  margin-bottom: 10px;
+
+}
+.form-control input, 
+.form-control select,
+.form-control textarea{
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid;
+  display: block;
+  width: 100%;
+  
+}
+.form-control input[type='radio'], 
+.form-control input[type='checkbox']{
+  display: inline-block;
+  width: auto;
+}
+
+button{
+  display: block;
+  font-family: inherit;
+  padding: 10px;
+  width: 100%;
+}

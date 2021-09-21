@@ -1,0 +1,60 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id='title'>  How Can We Help You </h1> 
+<p id='description'><i>Let us know a little about you.</i></p>
+
+<form  id="survey-form"> 
+  
+  <div class='form-control'> 
+    <label for='name' id='label-name'>Name</label>
+    <input type='text' id='name' placeholder='Enter your Name'/>
+  </div>
+    <div class='form-control'> 
+    <label for='email' id='label-email'>Email</label>
+    <input type='email' id='email' placeholder='Enter your Email'/>
+  </div>
+    <div class='form-control'> 
+    <label for='age' id='label-age'>Age</label>
+    <input type='number' id='age' placeholder='Enter your Age'/>
+  </div>
+  
+  <div class="form-control">
+    <label for='role'>Which option best describes your current role?</label>     
+    <select name="role" id="role">
+    <option value=""></option>
+    <option value="full-time">Full-Time</option>
+    <option value="part-time">Part-Time</option>
+    <option value="student">Student</option>
+    <option value="broke">Broke</option>
+     </select>
+  </div>
+  
+ <div class="form-control">
+<label>Would you recommend camp?</label>
+<label for='recommend-1'><input type='radio' id='recommend-1' name='recommend'/> Definitely </label>
+<label for='recommend-2'><input type='radio' id='recommend-2' name='recommend'/> Maybe </label>
+<label for='recommend-3'><input type='radio' id='recommend-3' name='recommend'/> Not Sure </label>
+  </div>
+  
+  <div class="form-control">
+    <label> What would you like to improve?<small> (Check all that apply)</small></label>
+<label for='improve-1'><input type = 'checkbox' name ='improve' id='improve-1'/> Front-end Projects</label> 
+<label for='improve-2'><input type = 'checkbox' name ='improve' id='improve-2'/> Back-end Project</label> 
+<label for='improve-3'><input type = 'checkbox' name ='improve' id='improve-3'/> Data Visualization</label> 
+<label for='improve-4'><input type = 'checkbox' name ='improve' id='improve-4'/> Challenges</label> 
+<label for='improve-5'><input type = 'checkbox' name ='improve' id='improve-5'/> Open Source Communit</label> 
+<label for='improve-6'><input type = 'checkbox' name ='improve' id='improve-6'/> Gitter help room</label> 
+<label for='improve-7'><input type = 'checkbox' name ='improve' id='improve-7'/> Videos</label> 
+<label for='improve-8'><input type = 'checkbox' name ='improve' id='improve-8'/> City Meetups</label> 
+<label for='improve-9'><input type = 'checkbox' name ='improve' id='improve-9'/> Wiki</label> 
+<label for='improve-10'><input type = 'checkbox' name ='improve' id='improve-10'/> Foru</label> 
+<label for='improve-11'><input type = 'checkbox' name ='improve' id='improve-11'/> Additional Courses</label>
+
+    <div class="form-control">
+      <label for='comments'>Any comments or suggestions?</label>
+      <textarea name='comments' id='comments' placeholder='Enter your comments here'></textarea>
+    </div>
+    <input type='submit' value='Submit'></input>  
+</form>
+  
+  
